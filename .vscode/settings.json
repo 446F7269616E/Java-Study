@@ -1,0 +1,20 @@
+{
+  "files.encoding": "utf8",
+  "editor.formatOnSave": true,
+  "java.jdt.ls.java.home": "/opt/homebrew/opt/openjdk@26",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-26",
+      "path": "/opt/homebrew/opt/openjdk@26",
+      "default": true
+    }
+  ],
+  "terminal.integrated.env.osx": {
+    "JAVA_HOME": "/opt/homebrew/opt/openjdk@26",
+    "PATH": "/opt/homebrew/opt/openjdk@26/bin:${env:PATH}"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "editor.formatOnSave": true
+  }
+}

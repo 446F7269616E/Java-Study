@@ -1,4 +1,6 @@
-public class BasicTpyes {
+package io.github.cyberair.javastudy.basics;
+
+public class BasicTypes {
     public static void main(String[] args){
         int a = 20;
         long b = 8_000_000L;

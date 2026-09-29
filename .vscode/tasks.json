@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Java: 构建项目",
+      "type": "shell",
+      "command": "rm -rf target/classes && mkdir -p target/classes && find src/main/java -name '*.java' -print0 | xargs -0 /opt/homebrew/opt/openjdk@26/bin/javac -encoding UTF-8 -d target/classes",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$javac"
+    }
+  ]
+}

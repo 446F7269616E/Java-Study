@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "运行：Hello",
+      "request": "launch",
+      "mainClass": "io.github.cyberair.javastudy.basics.Hello",
+      "classPaths": [
+        "${workspaceFolder}/target/classes"
+      ],
+      "preLaunchTask": "Java: 构建项目"
+    },
+    {
+      "type": "java",
+      "name": "运行：基础类型",
+      "request": "launch",
+      "mainClass": "io.github.cyberair.javastudy.basics.BasicTypes",
+      "classPaths": [
+        "${workspaceFolder}/target/classes"
+      ],
+      "preLaunchTask": "Java: 构建项目"
+    },
+    {
+      "type": "java",
+      "name": "运行：面向对象",
+      "request": "launch",
+      "mainClass": "io.github.cyberair.javastudy.oop.Main",
+      "classPaths": [
+        "${workspaceFolder}/target/classes"
+      ],
+      "preLaunchTask": "Java: 构建项目"
+    },
+    {
+      "type": "java",
+      "name": "运行：包结构练习",
+      "request": "launch",
+      "mainClass": "io.github.cyberair.javastudy.packages.app.Main",
+      "classPaths": [
+        "${workspaceFolder}/target/classes"
+      ],
+      "preLaunchTask": "Java: 构建项目"
+    }
+  ]
+}

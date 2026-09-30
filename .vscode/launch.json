@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "oop.inheritance.Main",
+      "projectName": "java-study"
+    },
+    {
+      "type": "java",
       "name": "运行：Hello",
       "request": "launch",
       "mainClass": "basics.Hello",

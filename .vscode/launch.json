@@ -5,7 +5,7 @@
       "type": "java",
       "name": "运行：Hello",
       "request": "launch",
-      "mainClass": "io.github.cyberair.javastudy.basics.Hello",
+      "mainClass": "basics.Hello",
       "classPaths": [
         "${workspaceFolder}/target/classes"
       ],
@@ -15,7 +15,7 @@
       "type": "java",
       "name": "运行：基础类型",
       "request": "launch",
-      "mainClass": "io.github.cyberair.javastudy.basics.BasicTypes",
+      "mainClass": "basics.BasicTypes",
       "classPaths": [
         "${workspaceFolder}/target/classes"
       ],
@@ -25,7 +25,7 @@
       "type": "java",
       "name": "运行：面向对象",
       "request": "launch",
-      "mainClass": "io.github.cyberair.javastudy.oop.Main",
+      "mainClass": "oop.Main",
       "classPaths": [
         "${workspaceFolder}/target/classes"
       ],
@@ -35,7 +35,7 @@
       "type": "java",
       "name": "运行：包结构练习",
       "request": "launch",
-      "mainClass": "io.github.cyberair.javastudy.packages.app.Main",
+      "mainClass": "app.Main",
       "classPaths": [
         "${workspaceFolder}/target/classes"
       ],

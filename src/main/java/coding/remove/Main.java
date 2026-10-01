@@ -21,7 +21,6 @@ public class Main {
 }
 
 // int before = 0;
-
 // for (int after = 0; after < nums.length; after++) {
 //     if (nums[after] != val) {
 //         nums[before] = nums[after];
